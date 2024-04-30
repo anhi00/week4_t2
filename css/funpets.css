@@ -1,0 +1,547 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: #c8eafb;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.blue{
+    color: #122e5e;
+}
+
+.white{
+    color:white;
+}
+
+.orange{
+    color: #ff4d00;
+}
+
+.orangeBtn{
+    background-color:#ff4d00;
+}
+
+.blueBtn{
+    background-color:#0074ff;
+}
+
+.firstSection{
+    height:400px;
+    background-image: url(../assets/banner_img.jpg); 
+    background-position: center;
+    background-size: cover;
+    align-items:center;
+}
+
+.introSection{
+    height: 400px;
+    margin-top: -40px;
+}
+
+.profileImg{
+    height: 400px;
+    background-image: url(../assets/marques.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.storySection{
+    background-color:white;
+    height: 400px;
+    border-radius: 0px 10px 10px 0px;
+    padding-right: 55px;
+}
+
+.mainTitle{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+    margin-top:50px;
+    margin-left:20px;
+}
+
+.aboutInfo{
+    margin-left: 90px;
+    margin-right:40px;
+    margin-top:30px;
+}
+
+.text{
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.bold{
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    color: #122e5e;
+}
+
+.followBtn{
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-size: 12px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color:#ff4d00;
+    color: white;
+}
+
+.textBtnBold{
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 700;
+    color: white !important;
+    font-size: 12px;
+}
+
+.subtitleSection{
+    margin-left:20px;
+    margin-top:50px;
+    margin-bottom:30px;
+}
+
+.subtitle{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+
+}
+
+.newVideoContainer{
+    height: 400px;
+    margin-top: 20px;
+}
+
+.infoContainer{
+    height:400px;
+    background-color:#0074ff;
+    padding-right: 39px;
+    padding-top: 50px;
+    padding-left:40px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.newVideoTitle{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+    color: white;
+    margin-top: 30px;
+    margin-bottom:30px;
+}
+
+.newVideoInfo{
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: white;
+    margin-top: 60px;
+    margin-bottom:30px;
+}
+
+.extraInfo{
+    margin-top: 70px;
+}
+
+.dateText{
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.watchBtn{
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 600;
+    font-size: 11px;
+    height: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.bigVideoEdit{
+    margin-left: -15px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.individualVideoContainer{
+    margin-bottom:20px;
+    margin-top: 20px;
+}
+
+.smallVideoEdit{
+    border-radius:10px 10px 0px 0px;
+    margin-bottom: -15px;
+}
+
+.infoSection{
+    background-color:white;
+    padding:20px;
+    border-radius: 0px 0px 10px 10px;
+    height: 210px;
+}
+
+.singleVideoTitle{
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 24px;
+    color: #122e5e;
+}
+
+.videoDescription{
+    margin-top:25px;
+    margin-bottom: 25px;
+}
+
+.comingSoonBanner{
+    height:400px;
+    background-image: url(../assets/banner_2c.jpg); 
+    background-position: center;
+    background-size: cover;
+}
+
+.comingSoonTitle{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+    margin-left:20px;
+    padding-top: 25px;
+}
+
+.textAlign{
+    text-align: center;
+}
+
+.subtitleComingSoon{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    margin-top:20px;
+    margin-left:20px;
+}
+
+.releaseDate{
+    margin-top:20px;
+}
+
+.signUpSection{
+    background-color: white;
+    height: 400px;
+    margin-top: -40px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.signUp{
+    padding-left:50px;
+    padding-right:50px;
+    margin-top: 135px;
+}
+
+.genericTitle{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+    margin-top:20px;
+    
+}
+
+#firstName{
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    color:#122e5e !important;
+    font-size: 14px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color:#c8eafb;
+    height: 20px;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left:10px;
+    padding-right:30px;
+}
+
+#lastName{
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    color:#122e5e !important;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color:#c8eafb;
+    height: 20px;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left:10px;
+    padding-right:30px;
+}
+
+#email{
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    color:#122e5e !important;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color:#c8eafb;
+    height: 20px;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left:10px;
+    padding-right:30px;
+}
+
+.submitBtn{
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 600;
+    font-size: 14px;
+    height: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color:#ff4d00;
+    color: white;
+    margin-top: 30px;
+}
+
+.form{
+    margin-top: 50px;
+}
+
+.socialMedia{
+    padding-left:50px;
+    padding-right:50px;
+    margin-top: 0px;
+}
+
+.socialMediaIcon{
+    height: 80px;
+    margin-top: 50px;
+}
+
+.container-fluid{
+    --bs-gutter-x: 0rem;
+}
+
+.iconLogo{
+    margin-bottom: 30px;
+}
+
+
+
+@media only screen and (min-width: 576px) and (max-width:767px){
+
+    .firstSection{
+        height:310px;
+        background-image: url(../assets/banner_mobile_img.jpg);
+    }
+
+    .profileImg{
+        border-radius: 10px 10px 10px 10px;
+    }
+    
+    .storySection{
+        border-radius: 10px 10px 10px 10px;
+        margin-top: 30px;
+    }
+
+    .mainTitle{
+        margin-top: 25px;
+    }
+
+    .introSection{
+        height: 831px;
+    }
+
+    .infoContainer{
+        border-radius: 10px 10px 0px 0px;
+        height: 325px;
+        padding-top: 20px;
+    }
+
+    .bigVideoEdit{
+        margin-left: -12px;
+        border-radius: 0px 0px 10px 10px;
+        width: 540px;
+    }
+
+    .newVideoContainer {
+        height: 720px;
+    }
+
+    .smallVideoEdit{
+        width:516px;
+    }
+
+    .finalSection{
+        height: 520px;
+    }
+
+    .socialMedia{
+        margin-top: 85px;
+        text-align:center;
+    }
+
+    .signUpSection {
+        height: 325px;
+    }
+
+    .form {
+        margin-top: 10px;
+    }
+
+    .signUp {
+        margin-top: 75px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width:991px){
+
+    .profileImg{
+        border-radius: 10px 10px 10px 10px;
+    }
+    
+    .storySection{
+        border-radius: 10px 10px 10px 10px;
+        margin-top: 30px;
+    }
+
+    .introSection{
+        height: 832px;
+    }
+
+    .infoContainer{
+        border-radius: 10px 10px 0px 0px;
+        height: 325px;
+        padding-top: 20px;
+    }
+
+    .bigVideoEdit{
+        margin-left: -12px;
+        border-radius: 0px 0px 10px 10px;
+        width: 480px;
+    }
+
+    .newVideoContainer {
+        height: 740px;
+    }
+
+    .smallVideoEdit{
+        width:336px;
+    }
+
+    .finalSection{
+        height: 560px;
+    }
+
+    .socialMedia{
+        margin-top: 120px;
+    }
+
+    .infoSection{
+        height: 278px;
+    }
+
+}
+
+@media only screen and (min-width: 992px) and (max-width:1199px){
+    
+    .profileImg {
+        height: 475px;
+    }
+
+    .storySection{
+        height: 475px;
+    }
+
+    .introSection{
+        height: 475px;
+    }
+
+    .bigVideoEdit{
+        width: 480px;
+    }
+
+    .smallVideoEdit{
+        width:296px;
+    }
+
+    .socialMediaIcon {
+        height: 70px;
+    }
+
+    .infoSection {
+        height: 314px;
+    }
+    
+}
+
+@media only screen and (min-width: 1200px) and (max-width:1399px){
+
+    .mainTitle{
+        margin-top: 28px;
+    }
+
+    .bigVideoEdit{
+        width: 600px;
+    }
+
+    .smallVideoEdit{
+        width: 356px;
+    }
+
+    .infoSection {
+        height: 285px;
+    }
+
+        
+}
+
+@media only screen and (min-width: 1400px) and (max-width:1600px){
+    .smallVideoEdit {
+     width: 417px;
+    }
+
+    .infoSection {
+        height: 250px;
+    }
+}
